@@ -19,6 +19,14 @@ ul{
 .list ul{
     display: flex;
     gap: 35px;
+    
+}
+.header .container .list a{
+    transition: 1s ;
+}
+.header .container .list a:hover{
+    color: yellow;
+    font-size: x-large;
 }
 .container{
     width: 60%;
@@ -28,6 +36,8 @@ ul{
 }
 .header{
     margin-top: 10px;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -46,7 +56,12 @@ ul{
 .search_form input{
     /* border: 0; */
     border: var(--Color_border_Input) 2px solid;
+        transition: 1s ;
     
+}
+.search_form:hover input{
+    padding: 10px;
+    border: 2px solid black;
 }
 .search_form a{
     background-color: var(--Color_Search_Icon);
