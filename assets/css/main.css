@@ -16,14 +16,17 @@ a{
 ul{
     list-style-type: none;
 }
-.list ul{
+.header .container .list ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 35px;
     
 }
+
 .header .container .list a{
     transition: 1s ;
 }
+
 .header .container .list a:hover{
     color: yellow;
     font-size: x-large;
@@ -43,6 +46,7 @@ ul{
 
 .header .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     
 
@@ -71,6 +75,9 @@ ul{
 } 
 .header .container .lists{
     color: var(--Color_another_list);
+}
+.container .menu{
+    display: none;
 }
 
 
