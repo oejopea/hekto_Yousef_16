@@ -99,6 +99,41 @@ ul {
     display: none;
 }
 
+.hero  .row{
+    background-image: url(./../img/Rectangle\ 102.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center; 
+     /* background-size: contain;  */
+    height: 40vh;
+    align-items: center;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.hero .text_hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+    height: 50%;
+    
+}
+.hero .text_hero button{
+    background-color: var(--Color_List_Home);
+    padding: 10px 40px;
+    color: #EEEFFB;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
 .footer {
     margin-top: 60px;
     padding: 50px 0;
